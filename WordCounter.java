@@ -1,5 +1,5 @@
 public class WordCounter {
-    public static main(String[] args) {
+    public static void main(String[] args) {
         String str = "bob played connect-4 with his younger brother bobby and his other friend named bob";
         String word = "bob";
 
@@ -11,5 +11,7 @@ public class WordCounter {
             }
         }
         System.out.println(count);
+        return;
     }
+    
 }
